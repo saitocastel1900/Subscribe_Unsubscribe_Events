@@ -11,7 +11,8 @@ public class CallUnityEvent : MonoBehaviour
 
     private void Start()
     {
-        _unityEvent.AddListener(DebugLog("aaaa"));
+    //スクリプト上でも関数を登録できます
+    //_unityEvent.AddListener(DebugLog("aaaa"));
         StartFunc();
     }
 
