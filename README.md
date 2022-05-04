@@ -1,2 +1,2 @@
 # Subscribe_Unsubscribe_Events
-This repository was used to verify about C# events. Feel free to use it.
+C#のイベントについて検証したい際に使ったリポジトリです。ご自由にお使いください。
