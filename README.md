@@ -27,7 +27,9 @@ C#のイベントについて検証したい際に使ったリポジトリです
 ### UnityEvent C#のeventをクラス化
 ・Buttonコンポーネントでよく見るやつ
 ・インスペクタ上に表示される
-
+```
+private UnityEngine.Events.UnityEvent _unityEvent = new UnityEngine.Events.UnityEvent();
+```
 
 ## 参考資料
 https://torikasyu.com/?p=1567  
