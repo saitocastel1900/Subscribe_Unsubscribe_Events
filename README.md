@@ -21,3 +21,4 @@ C#のイベントについて検証したい際に使ったリポジトリです
 https://torikasyu.com/?p=1567  
 https://nn-hokuson.hatenablog.com/entry/2021/09/02/114100  
 https://ufcpp.net/study/csharp/MiscEventSubscribe.html  
+https://kan-kikuchi.hatenablog.com/entry/Delegate
