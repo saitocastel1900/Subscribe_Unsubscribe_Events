@@ -38,7 +38,7 @@ C#のイベントについて検証したい際に使ったリポジトリです
 [SerializeField]
 private UnityEvent _unityEvent = new UnityEvent();
 ```
-![スクリーンショット 2022-05-04 232238](https://user-images.githubusercontent.com/96648305/166701982-c446b54d-1088-4116-8650-c558373adcd7.png)
+![スクリーンショット 2022-05-04 232238](https://user-images.githubusercontent.com/96648305/166701982-c446b54d-1088-4116-8650-c558373adcd7.png)  
 ・登録できる関数はPublicである必要がある
 ・登録したい関数のデフォルト引数は適用されない
 
