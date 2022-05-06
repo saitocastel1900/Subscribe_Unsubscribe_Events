@@ -52,4 +52,5 @@ _unityEvent.RemoveListener()               //登録した関数すべてを削�
 https://torikasyu.com/?p=1567  
 https://nn-hokuson.hatenablog.com/entry/2021/09/02/114100  
 https://ufcpp.net/study/csharp/MiscEventSubscribe.html  
-https://kan-kikuchi.hatenablog.com/entry/Delegate
+https://kan-kikuchi.hatenablog.com/entry/Delegate  
+https://www.urablog.xyz/entry/2016/09/11/080000
