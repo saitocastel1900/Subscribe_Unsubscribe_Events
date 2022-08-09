@@ -10,9 +10,42 @@ C#のイベントについて検証したい際に使ったリポジトリです
 ・コールバック(ボタンを押したときにアニメーションを実行する等)を実装する際に使用。  
 ・簡単に処理を登録・実行できる  
 ・+=で関数を追加
+・定義側と関数登録側に分かれる
 ```
 アクセス修飾子 delegate 戻り値の型 デリゲートの型名  
 アクセス修飾子 デリゲートの型名 デリゲート変数  
+```
+例
+
+```
+    //デリゲート定義側
+    public delegate void OnCompleteDelegate();
+    public OnCompleteDelegate onComplete;
+    
+    public void CountDown()
+    {
+        // 本当はちゃんと3秒かけてカウントする
+        Debug.Log(3);
+        Debug.Log(2);
+        Debug.Log(1);
+        
+        // コールバック
+        onComplete();
+    }
+    
+    
+    //関数登録側
+     void Start()
+    {
+        Timer timer = new Timer();
+        timer.onComplete += Alarm;
+        timer.CountDown();
+    }
+
+    void Alarm()
+    {
+        Debug.Log("カウントダウン終了");
+    }
 ```
 
 
